@@ -1,0 +1,61 @@
+
+       /* === ESTILO DO SITE===*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+     /* Faz a página ocupar a altura inteira da tela do computador */
+     html, 
+     body {
+         margin: 0; /* margem */
+         padding: 0; /* preenchimento interno*/
+         height: 100%; /* altura*/
+/* Aplica os comandos de centralizar no corpo do site */
+         display: flex;           /*ativa o modo do alinhamento */
+         flex-direction: column; /* força os elementos a ficarem um abaixo do outro*/
+         justify-content: center;   /* centraliza na horizontal(esquerda/direita) */
+         align-items: center;      /* centraliza na vertical (cima/baixo) */
+        text-align: center;        /*garante que as linhas de texto fiquem alinhadas entre si*/ 
+       /* Corpo da página */
+        background-color: #74a4dbec;
+        font-family: 'Orbitron', 'Audiowide';
+     }
+
+  
+ 
+header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 40px 20px; /*Dá um espaço confortável no topo e nas laterais */
+
+  /* Título principal */
+   h1 {
+        color: hsla(298, 100%, 50%, 1);
+  }
+  .menu ul {
+    list-style-type: none; /*remove as bolinhas da lista */
+    padding: 0;
+    margin:20px 0;
+    display:flex;
+    gap: 10px; /* espaço entre os links do menu*/
+    justify-content: center;
+
+ }
+ .menu li{
+   display: inline-block;
+ }
+ .menu {
+     color: #4b0082; /* Escolha uma cor que combine, como um roxo escuro */
+    font-weight: bold;
+    transition: 0.3s;
+  }
+.menu a:hover {
+    color: hsla(298, 100%, 50%, 1); /* Muda para o rosa brilhante do seu título */
+}
+} 
+
+
+ 
+   
+   
